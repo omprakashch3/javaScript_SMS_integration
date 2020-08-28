@@ -10,7 +10,7 @@
 Content-Type: application/json
 
 {
-  "recipient" : "+<COUNTRY_CODE><PHONE_NUMBER>",
+  "recipient" : "+<CC><PHNO>",
   "message": "Hello, this is a sms sent to one person!"
 }
 ```
@@ -21,7 +21,7 @@ Content-Type: application/json
 Content-Type: application/json
 
 {
-  "recipient" : "+<COUNTRY_CODE><PHONE_NUMBER>",
+  "recipient" : "+<CC><PHNO>",
   "sms": "Hello, this is a sms sent to one person!"
 }
 ```
@@ -33,11 +33,11 @@ Content-Type: application/json
 
 {
   "recipients" : [
-      "+<COUNTRY_CODE><PHONE_NUMBER_1>",
-      "+<COUNTRY_CODE><PHONE_NUMBER_2>",
-      "+<COUNTRY_CODE><PHONE_NUMBER_3>",
-      "+<COUNTRY_CODE><PHONE_NUMBER_4>",
-      "+<COUNTRY_CODE><PHONE_NUMBER_5>"
+      "+<CC><PHNO_1>",
+      "+<CC><PHNO_2>",
+      "+<CC><PHNO_3>",
+      "+<CC><PHNO_4>",
+      "+<CC><PHNO_5>"
     ],
   "message": "Hello, this is a group sms"
 }
